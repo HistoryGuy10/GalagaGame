@@ -452,6 +452,7 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ship
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 7635271642983403363, guid: 8a9f30d0b7fb86f4288ffa9dc71cd323, type: 3}
       propertyPath: m_LinearDamping
       value: 2
@@ -467,11 +468,47 @@ PrefabInstance:
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Move","value":{"x":0.0,"y":0.0,"$type":"UnityEngine.Vector2"},"typeHandle":{"Identification":"UnityEngine.Vector2,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
+=======
+    - target: {fileID: 6605357107014019271, guid: 8a9f30d0b7fb86f4288ffa9dc71cd323, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -8678234442251388757, guid: 42031a32f3afe8445871fcdc0f4d003f, type: 3}
+>>>>>>> Stashed changes
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4552903444070804797, guid: 8a9f30d0b7fb86f4288ffa9dc71cd323, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3219692409741940603}
   m_SourcePrefab: {fileID: 100100000, guid: 8a9f30d0b7fb86f4288ffa9dc71cd323, type: 3}
+--- !u!1 &3219692409741940602 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4552903444070804797, guid: 8a9f30d0b7fb86f4288ffa9dc71cd323, type: 3}
+  m_PrefabInstance: {fileID: 3219692409741940601}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &3219692409741940603
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3219692409741940602}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 849d168442e07fc449eddf67c9e77f2b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
